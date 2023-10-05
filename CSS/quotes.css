@@ -1,0 +1,38 @@
+#letters{
+    margin-left: 500px;
+}
+#kotes{
+    margin-left: 700px;
+}
+.quote{
+    color:maroon;
+margin-left: 50px;
+}
+.author{
+color:cornsilk;
+margin-left: 50px;
+
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color:burlywood;
+}
+
+@media (min-width: 768px) {
+    #letters {
+      margin-left: 15%;
+    }
+  
+    #kotes {
+      margin-left: 20%;
+    }
+  
+    .quote {
+      margin-left: 10%;
+    }
+  
+    .author {
+      margin-left: 10%;
+    }
+  }
